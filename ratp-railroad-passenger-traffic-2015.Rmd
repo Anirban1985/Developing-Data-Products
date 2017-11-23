@@ -1,0 +1,7 @@
+rmarkdown::render_site("ratp-railroad-passenger-traffic-2015.Rmd")
+
+install.packages("rmarkdown")
+
+library(rmarkdown)
+
+install.packages("rmarkdown", repos = "https://cran.revolutionanalytics.com")
